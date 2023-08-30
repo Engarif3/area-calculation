@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+  margin-top: 2rem;
+  margin-left:2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card {
+  
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5rem 1rem 5rem;
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: F8f8f8;
+   
+  }
+
+ 
+
+  .result-card{
+    grid-column: 4/-1;
+    grid-row: 1/8;
+    /* position: left; */
+    border: 2px solid black;
+    text-align: center;
+    padding: 2rem 5rem 1rem 5rem;
+
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+
+   
+   
+  }
+ .image{
+  width: 100%;
+  height: auto;
+ }
+  .name{
+    margin: .5rem 0 2rem 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 16px;
+  }
+  .input-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    padding:.3rem 3rem .3rem 3rem;
+    background-color: rgb(71, 71, 226);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  input{
+    margin-left: 1.5rem;
+    outline: none;
+    /* border: none; */
+  }
+  
+  .formula {
+    margin: .5rem 0 .5rem 0;
+  }
+
+  #result{
+    margin: 2rem;
+    
+  }
+
+  .new-li{
+    margin-bottom: .5rem;
+  }
+
+ 
