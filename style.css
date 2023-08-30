@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin:2rem 12rem 0px 12rem;
+    padding: 2rem 12rem 0px 12rem;
 }
 
 .cards{
